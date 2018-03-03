@@ -1,0 +1,383 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="horizontal" >  
+
+     <LinearLayout  
+        android:id="@+id/menu"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="@drawable/broadmenu" 
+        android:orientation="vertical">
+
+       
+        <TextView
+            android:id="@+id/broadsearch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			搜        索"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+         <TextView
+            android:id="@+id/broadpost2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			发        帖"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmylike2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			我的收藏"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmyinfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的资料"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+           />
+            <TextView
+            android:id="@+id/broadmytext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+                        android:text="			我的帖子"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+              <TextView
+            android:id="@+id/broadmychat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的消息"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+                <TextView
+            android:id="@+id/broadset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			设        置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+                <TextView
+                    android:id="@+id/broadabout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:gravity="center_vertical|start|top|left"
+                    android:scrollHorizontally="true"
+                    android:text="			关        于"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>  
+        <LinearLayout  
+        android:id="@+id/content"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="#FFCCCC" >  
+
+
+   <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".searchone" >
+            
+         <TextView
+        android:id="@+id/sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="日"/>
+              <TextView
+        android:id="@+id/monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="一"/>
+                   <TextView
+        android:id="@+id/tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="二" />
+                        <TextView
+        android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="三" />
+                        
+      <TextView
+        android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="四" />
+                             
+  <TextView
+        android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="五"/>
+  <TextView
+        android:id="@+id/saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="六"/>
+  
+    <TextView
+        android:id="@+id/day7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.1"
+        />
+  
+    <TextView
+        android:id="@+id/day1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.2"
+        />
+     <TextView
+        android:id="@+id/day2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.3"
+        />
+      <TextView
+        android:id="@+id/day3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.4"
+        />
+       <TextView
+        android:id="@+id/day4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.5"
+        />
+        <TextView
+        android:id="@+id/day5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.6"
+        />
+         <TextView
+        android:id="@+id/day6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="25px"
+            android:text="1.7"
+            
+        />
+        
+          
+  <ScrollView 
+      android:id="@+id/scrollview"
+    android:layout_width="300dp" 
+    android:layout_height="300dp"
+    android:scrollbars="vertical">
+    <LinearLayout android:orientation="vertical"
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<!--      
+      <TextView
+        android:id="@+id/info1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1info1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+      
+    -->    
+    </LinearLayout>
+</ScrollView>                         
+
+<!-- 
+    <ImageView
+        android:id="@+id/okbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/okbutton" />
+
+    
+
+    <ImageView
+        android:id="@+id/date1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_1" />
+
+    <ImageView
+        android:id="@+id/date2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_2" />
+
+    <ImageView
+        android:id="@+id/date3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_3" />
+
+       <ImageView
+        android:id="@+id/date4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_4" />
+
+    <ImageView
+        android:id="@+id/date5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_5" />
+    
+      
+    <ImageView
+        android:id="@+id/date6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_6" />
+    
+    <ImageView
+        android:id="@+id/date7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/data_65_455_7" />
+    
+    <ImageView
+        android:id="@+id/mylocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/findlocation" />
+-->
+ 
+
+    <EditText
+        android:id="@+id/begintext"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ems="6" />
+
+    <EditText
+        android:id="@+id/endtext"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ems="6" />
+    
+         <ImageView
+        android:id="@+id/choosedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/choosedate" 
+        />
+
+    <!-- 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="从"
+        android:textColor="#B8002E" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="出发到"
+        android:textColor="#B8002E" />
+       <ImageView
+        android:id="@+id/informationivew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/informationview" />
+     -->
+      <ImageView
+        android:id="@+id/bmap"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:src="@drawable/button_1_48_" />
+      <TextView
+        android:id="@+id/lookmap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+        android:text="看地图"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <ImageView
+         android:id="@+id/bok2"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:src="@drawable/okbutton"/>
+ 
+
+</RelativeLayout>
+
+      
+    </LinearLayout>  
+  
+</LinearLayout> 

@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="horizontal"  >  
+  
+    <LinearLayout  
+        android:id="@+id/menu"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="@drawable/broadmenu" 
+        android:orientation="vertical">
+
+           <TextView
+            android:id="@+id/broadsearch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			搜        索"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+         <TextView
+            android:id="@+id/broadpost7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			发        帖"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmylike7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			我的收藏"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmyinfo7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的资料"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+           />
+            <TextView
+            android:id="@+id/broadmytext7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+                        android:text="			我的帖子"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+              <TextView
+            android:id="@+id/broadmychat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的消息"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+                <TextView
+            android:id="@+id/broadset7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			设        置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+                <TextView
+                    android:id="@+id/broadabout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:gravity="center_vertical|start|top|left"
+                    android:scrollHorizontally="true"
+                    android:text="			关        于"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>  
+  
+   <LinearLayout  
+        android:id="@+id/content7"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="@drawable/informationview" >  
+
+
+        
+          
+  <ScrollView 
+      android:id="@+id/scrollview7"
+      android:layout_marginLeft="40dp"
+      
+      android:layout_marginTop="50dp"
+    android:layout_width="280dp" 
+    android:layout_height="500dp"
+    android:scrollbars="vertical">
+    <LinearLayout android:orientation="vertical"
+        android:id="@+id/body7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </LinearLayout>
+</ScrollView>                         
+
+
+      
+    </LinearLayout>    
+  
+</LinearLayout> 

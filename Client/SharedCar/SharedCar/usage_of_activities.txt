@@ -1,0 +1,13 @@
+
+activity names                   number of broadmenu                   usage
+
+firstactivity                    x                                    login
+digital_one                      no broadmenu                         baidu map
+search_one                       2                                    search(main)
+post                             3                                    new a text to post
+mycollect                        4                                    my collection of text
+myInfo                           5                                    my information(you can edit it)(need touch to server)
+Edit                             6                                    chat with somebody(intent of nickname)
+mytext                           7                                    the texts of mine, which I have posted
+mychat                           8                                    messages left by others, records of chats
+digital_two                      10                                   the detail of texts(need intent something) 

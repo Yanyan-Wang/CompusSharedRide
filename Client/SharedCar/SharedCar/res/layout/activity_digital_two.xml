@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="horizontal"  
+    tools:context=".MainActivity" >  
+  
+    <LinearLayout  
+        android:id="@+id/menu"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="@drawable/broadmenu" 
+        android:orientation="vertical">
+
+       
+        <TextView
+            android:id="@+id/broadsearch10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			搜        索"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+         <TextView
+            android:id="@+id/broadpost10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			发        帖"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmylike10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			我的收藏"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmyinfo10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的资料"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+           />
+            <TextView
+            android:id="@+id/broadmytext10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+                        android:text="			我的帖子"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+              <TextView
+            android:id="@+id/broadmychat10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的消息"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+                <TextView
+            android:id="@+id/broadset10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			设        置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+                <TextView
+                    android:id="@+id/broadabout10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:gravity="center_vertical|start|top|left"
+                    android:scrollHorizontally="true"
+                    android:text="			关        于"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>  
+  
+    <LinearLayout  
+        android:id="@+id/content"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="#FFCCCC" >  
+        
+
+
+
+
+
+
+
+
+<RelativeLayout 
+         android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/detailmessageview" >
+
+    <ImageView
+        android:id="@+id/detailbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detailmessageview" />
+
+    <TextView
+        android:id="@+id/idedit2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+            android:textSize="35px"
+            android:text="null"
+        android:ems="10" >
+       </TextView>
+
+       <TextView
+           android:id="@+id/dateedit2"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+            android:textSize="35px"
+            android:text="null"
+           android:ems="10" />
+
+       <TextView
+           android:id="@+id/timeedit2"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+            android:textSize="35px"
+            android:text="null"
+           android:ems="10" />
+
+       <TextView
+           android:id="@+id/fromedit2"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+            android:textSize="35px"
+            android:text="null"
+           android:ems="10" />
+
+      <ImageView
+            android:id="@+id/touchbutton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+     		android:src="@drawable/button_1_48_" />
+       <ImageView
+            android:id="@+id/collectbutton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+     		android:src="@drawable/button_1_48_" />
+
+     <TextView
+           android:id="@+id/touchtext"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:text="和ta联系" 
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/collecttext"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:text="收藏" 
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+       
+     <TextView
+           android:id="@+id/teleedit2"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+            android:text="null"
+            android:textSize="35px"
+          android:ems="10" />
+
+     <TextView
+         android:id="@+id/toedit2"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+        android:singleLine="true"
+            android:text="null"
+            android:textSize="35px"
+            
+        android:ems="10" />
+      <TextView
+         android:id="@+id/addcontent"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+        android:singleLine="true"
+            android:text="null"
+            android:textSize="35px"
+        android:ems="10" />
+
+</RelativeLayout>
+
+
+
+  </LinearLayout>  
+  
+</LinearLayout> 

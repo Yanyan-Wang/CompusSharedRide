@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+
+
+    >
+    <com.baidu.mapapi.map.MapView android:id="@+id/bmapsView"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:clickable="true" />
+  
+     
+      <ImageView
+        android:id="@+id/end"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:src="@drawable/end1" />
+      
+        
+    <ImageView
+        android:id="@+id/begin"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+		android:clickable="true"
+        android:src="@drawable/begin1" />
+        
+       <EditText
+        android:id="@+id/beginedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine = "true"
+        android:hint="点击地图点得到地址"
+        android:ems="18" />
+         <EditText
+        android:id="@+id/endedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine = "true"
+        android:hint="点击地图点得到地址"
+        android:ems="18" />
+         
+      <ImageView
+        android:id="@+id/myloc"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:src="@drawable/findlocation" />
+      <ImageView
+        android:id="@+id/bok"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+      
+        android:src="@drawable/okbutton" />
+         <ImageView
+        android:id="@+id/search"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chattingview" />
+         
+         
+            <ImageView
+        android:id="@+id/searchok"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:src="@drawable/okbutton" />
+         
+         <EditText
+        android:id="@+id/searchcontent"
+         android:ems="10" 
+        android:layout_width="300px"
+        android:layout_height="80px"
+        android:hint="搜索位置" 
+       />
+         
+          <ImageView
+        android:id="@+id/end2"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:src="@drawable/end2" />
+        <ImageView
+        android:id="@+id/begin2"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+		android:clickable="true"
+        android:src="@drawable/begin2" />
+        <Button
+            android:id="@+id/back"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="返回"/>"
+        
+        
+     
+   
+</RelativeLayout>

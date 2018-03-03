@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="horizontal" 
+    tools:context=".MainActivity" >  
+
+     <LinearLayout  
+        android:id="@+id/menu5"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="@drawable/broadmenu" 
+        android:orientation="vertical">
+
+       
+        <TextView
+            android:id="@+id/broadsearch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			搜        索"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+         <TextView
+            android:id="@+id/broadpost5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			发        帖"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmylike5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+           
+            android:text="			我的收藏"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+          <TextView
+            android:id="@+id/broadmyinfo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            
+            android:text="			我的资料"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+           />
+            <TextView
+            android:id="@+id/broadmytext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+                        android:text="			我的帖子"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+              <TextView
+            android:id="@+id/broadmychat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            android:text="			我的消息"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+                <TextView
+            android:id="@+id/broadset5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical|start|top|left"
+            android:scrollHorizontally="true"
+            android:text="			设        置"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+           <TextView
+              android:id="@+id/broadabout5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:enabled="true"
+              android:gravity="center_vertical|start|top|left"
+              android:scrollHorizontally="true"
+              android:text="			关        于"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>  
+    
+        <LinearLayout  
+        android:id="@+id/content5"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:background="#FFCCCC" >  
+        
+<RelativeLayout 
+         android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/informationview" >
+ 
+      <TextView
+           android:id="@+id/myid5"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:text="我的学号:" 
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+      <TextView
+           android:id="@+id/mystuidedit"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+     android:id="@+id/mynickname5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="我的昵称："
+           android:singleLine="true"
+     android:textAppearance="?android:attr/textAppearanceLarge"   />
+          
+   <TextView
+     android:id="@+id/mytele5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="我的电话："
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+           
+           />     
+   <TextView
+     android:id="@+id/mysex5"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:text="性别："
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+           /> 
+           <TextView
+     android:id="@+id/mysexedit"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+           android:singleLine="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+           /> 
+           
+    <EditText
+     android:id="@+id/teleedit5"
+     android:layout_width="200dp"
+     android:layout_height="wrap_content"
+     android:singleLine="true"
+     android:text="null"
+     android:textSize="35px"
+     android:ems="10"/> 
+     
+ <EditText
+           android:id="@+id/nicknameedit5"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+            android:text="null"
+            android:textSize="35px"
+          android:ems="10" /> 
+     
+
+
+ <TextView
+     android:id="@+id/savetext"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text=""/> 
+ 
+ <ImageView
+     android:id="@+id/picsave"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/button_1_48_"/>
+ <TextView
+     android:id="@+id/savetext2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="保存"
+         android:textAppearance="?android:attr/textAppearanceLarge"/> 
+
+ 
+ 
+
+</RelativeLayout>
+
+      
+    </LinearLayout>  
+  
+</LinearLayout> 

@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/registerbg">
+<!--  
+     <ImageView
+        android:id="@+id/newusertittle"
+        android:layout_width = "210dp"
+        android:layout_height = "wrap_content"
+        android:src = "@drawable/newusertittle"
+        />
+     -->
+    <ImageView
+        android:id="@+id/idpic"
+        android:layout_width = "200dp"
+        android:layout_height = "wrap_content"
+        android:src = "@drawable/chattingview"
+        />
+     <ImageView
+        android:id="@+id/passwordpic"
+        android:layout_width = "200dp"
+        android:layout_height = "wrap_content"
+        android:src = "@drawable/chattingview"
+        />
+      <ImageView
+        android:id="@+id/namepic"
+        android:layout_width = "200dp"
+        android:layout_height = "wrap_content"
+        android:src = "@drawable/chattingview"
+        />
+       <ImageView
+        android:id="@+id/telepic"
+        android:layout_width = "200dp"
+        android:layout_height = "wrap_content"
+        android:src = "@drawable/chattingview"
+        />
+    
+    <TextView
+        android:id="@+id/idtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学        号"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <TextView
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="密        码"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置昵称"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/teletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="电       话"
+      
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/zhucebutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:src="@drawable/button_1_48_" />
+
+   
+    <EditText
+        android:id="@+id/idedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/passwordedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/teleedit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="选填"
+         >
+    </EditText>
+
+    <TextView
+        android:id="@+id/zhuce"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="56dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="注册" />
+  
+ 
+</RelativeLayout>

@@ -1,0 +1,8 @@
+background_9.jpg  背景图片480*800px
+button_1_48.jpg   按钮未按下时144px*48px
+button_2_48.jpg   按钮按下时144px*48px
+choosebutton_240.jpg  切换选项卡按钮238*73px
+date_1_65_65.jpg     填写星期的方框65*65px
+date_2_65_65.jpg     填写星期的方框65*65px以上两者相间分布
+Informationview.png    显示帖子页面372*426px
+Textview2_300_45.png   文本输入框
